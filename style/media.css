@@ -1,0 +1,10 @@
+@media screen and (max-width: 750px) {
+    .title_header {
+    font-size: calc(25px + 1.2vw);
+    padding-top: 1vw;
+    }
+    .card_site_info_container {
+        flex-direction: column;
+        gap: 15px;
+    }
+}

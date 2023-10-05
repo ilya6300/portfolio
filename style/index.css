@@ -1,0 +1,107 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.page {
+  background: var(--my-black);
+}
+.header {
+  background-image: url("../img/header_fone.jpg");
+  background-size: cover;
+  background-position: center 20%;
+  width: 100vw;
+  height: 10vw;
+  position: relative;
+}
+.title_header {
+  text-align: center;
+  padding-top: 2vw;
+  font-size: calc(25px + 3vw);
+  letter-spacing: 2px;
+  color: var(--header-blue);
+}
+.my_name_header {
+  font-size: calc(15px + 1vw);
+  /* margin: 35px auto; */
+  position: absolute;
+  right: 5%;
+  bottom: 1%;
+  color: var(--header-blue);
+}
+.container {
+  max-width: 1150px;
+  width: 97vw;
+  margin: 35px auto;
+  background: whitesmoke;
+  padding: 40px 0;
+  box-shadow: 0 0 12px 0px #000000b0;
+  border-radius: 8px;
+}
+.title_main {
+  text-align: center;
+  font-size: calc(15px + 1vw);
+}
+.card_site {
+  padding: 20px 25px;
+  border-bottom: 1px solid var(--my-black);
+  transition: all 0.2s ease-in;
+}
+.card_site:hover {
+  background: rgba(189, 203, 223, 0.308);
+}
+.card_site_title    {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: var(--header-blue);
+  filter: opacity(80%);
+}
+.card_site_info_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+}
+.card_site_info_container-text {
+  width: 85%;
+}
+.card_site_info_container-text li {
+  font-family: "Times New Roman", Times, serif;
+}
+.card_site_info_container-link {
+  display: block;
+  min-width: 120px;
+  color: azure;
+  box-shadow: 0 0 5px 1px rgb(70, 64, 70);
+  text-align: center;
+  padding: 10px;
+  border-radius: 7px 0 7px 0;
+  background: var(--my-black);
+  transition: all 0.4s ease-in;
+}
+.card_site_info_container-link:hover {
+  box-shadow:none;
+  position: relative;
+  top: 1px;
+}
+.card_site_info_container-column_2 {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+
+}
+.card_site_img {
+  cursor: pointer;
+  max-height: 195px;
+  border-radius: 4px;
+}
+.card_site_info_container-column_img_container {
+  height: 195px;
+}
+.card_site_img:hover {
+  z-index: 10;
+  transform: scale(2);
+}
