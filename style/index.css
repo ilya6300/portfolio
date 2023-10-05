@@ -62,7 +62,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 300px;
+  /* height: 300px; */
 }
 .card_site_info_container-text {
   width: 85%;
