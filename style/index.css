@@ -91,7 +91,7 @@
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
-
+    margin-left: 20px;
 }
 .card_site_img {
   cursor: pointer;
@@ -100,7 +100,7 @@
 }
 .card_site_info_container-column_img_container {
   height: 195px;
-  min-width: 230px;
+  min-width: 300px;
   text-align: end;
 }
 .card_site_img:hover {
