@@ -20,4 +20,7 @@
   .card_site {
     padding: 10px 5px;
   }
+  .card_site_info_container-column_2 {
+    margin: 0;
+  }
 }
